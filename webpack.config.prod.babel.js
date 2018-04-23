@@ -2,7 +2,7 @@ import path from 'path';
 import webpack from 'webpack';
 
 export default {
-    entry: './src/home',
+    entry: './src/index',
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'bundle.js',
